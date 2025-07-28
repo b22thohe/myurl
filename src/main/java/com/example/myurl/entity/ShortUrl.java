@@ -38,4 +38,20 @@ public class ShortUrl {
     public Long getId() {
         return id;
     }
+
+    public int getClickCount() {
+        return clickCount;
+    }
+
+    public void setClickCount(int clickCount) {
+        this.clickCount = clickCount;
+    }
+
+    public String getShortCode() {
+        return shortCode;
+    }
+
+    public String getOriginalUrl() {
+        return originalUrl;
+    }
 }
